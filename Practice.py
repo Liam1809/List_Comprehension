@@ -93,3 +93,6 @@ print(exponents([2, 3, 4], [1, 2, 3]))
 
 #  another way is [x for x in [y for y in data]]
 
+# iterate over a list backward
+# for i in range(len(list)-1, -1, -1):
+# for i in list[::-1]:
