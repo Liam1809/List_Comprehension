@@ -81,3 +81,15 @@ for digit in single_digits:
 print(squares)
 cubes = [digit**3 for digit in single_digits]
 print(cubes)
+
+# nested list comprehension
+#Write your function here
+def exponents(bases, powers):
+  empty_list = [(base ** power)for base in bases for power in powers]
+  return empty_list
+
+#Uncomment the line below when your function is done
+print(exponents([2, 3, 4], [1, 2, 3]))
+
+#  another way is [x for x in [y for y in data]]
+
